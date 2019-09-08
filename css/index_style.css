@@ -1,0 +1,119 @@
+* {
+  font-family: arial, sans-serif;
+}
+html {
+  font-size: 10px;
+}
+.navbar-section .logo-img {
+  width: 184;
+  height: 68;
+}
+.navbar-section .account {
+  width: 184;
+  height: 68;
+}
+.navbar-section #nav-bar {
+  border-bottom: 1px solid #e3e3e3;
+  padding-bottom: 0;
+  background-color: white !important;
+}
+.navbar-section #topBar {
+  background-color: #e3e3e3;
+}
+.navbar-section .logo-img {
+  margin: 10px 0 0 20px;
+}
+.navbar-section .container {
+  padding: 0 90px;
+}
+.navbar-section .container .o-account .icons-login-cart {
+  margin-top: 10px;
+}
+.navbar-section .container .o-account .icons-login-cart .account-icon p {
+  font-size: 13px;
+  font-weight: 700;
+  color: #666666;
+  padding-right: 3px;
+  margin: 0;
+}
+.navbar-section .container .o-account .icons-login-cart .account-icon i {
+  font-weight: 700;
+  font-size: 18px;
+  color: #666666;
+}
+.navbar-section .container .o-account .o-search-input {
+  position: relative;
+}
+.navbar-section .container .o-account .o-search-input input {
+  font-size: 12px;
+}
+.navbar-section .container .o-account .o-search-input i {
+  position: absolute;
+  top: 20%;
+  right: 4%;
+  font-size: 15px;
+  font-weight: 900;
+  color: #666666;
+}
+#lastAccountIcon {
+  margin-left: 40px;
+}
+.navbar-section
+  .container
+  .o-account
+  .icons-login-cart
+  .account-icon
+  .fa-shopping-cart {
+  position: relative;
+}
+#o-product-count {
+  position: absolute;
+  right: -30%;
+  top: -30%;
+  z-index: 5;
+  color: white;
+  font-size: 10px;
+  background-color: #0090c5;
+  padding: 3px;
+  border-radius: 50%;
+}
+#topBar .top-bar-container {
+  height: 3rem;
+}
+#topBar h1 {
+  color: #666;
+  font-size: 12px;
+  font-weight: 700;
+  padding-top: 2px;
+  word-spacing: 3px;
+  margin: 0;
+}
+#topBar a {
+  color: #666;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 400;
+}
+#nav-bar .navbar-link {
+  font-size: 15px;
+  padding: 0 20px;
+  margin: 17px 0;
+  color: #b71226;
+  font-weight: 500;
+}
+#nav-bar ul {
+  margin: 0;
+}
+#nav-bar ul li {
+  border-right: 1px solid #e3e3e3;
+  transition: all 0.2s ease-out;
+}
+#nav-bar ul .last-link {
+  border-right: 0px;
+}
+#nav-bar ul li:hover {
+  background-color: #e3e3e3;
+}
+#nav-bar ul li:hover a {
+  color: #333;
+}
