@@ -1,0 +1,210 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/nouislider.min.css" />
+    <link rel="stylesheet" href="css/nice-select.css" />
+    <link rel="stylesheet" href="css/index_style.css" />
+  </head>
+  <body>
+    <section class="o-category-header text-center">
+      <h2 class="o-selected-category">Men</h2>
+    </section>
+    <section class="o-categories">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-3 col-lg-4 col-md-5">
+            <div class="o-side-filters">
+              <div class="o-product-filter">
+                <div class="top-filter-head">Product Filters</div>
+                <div class="common-filter">
+                  <div class="head">Brands</div>
+                  <form action="#">
+                    <ul class="list-unstyled text-muted">
+                      <li class="filter-list">
+                        <input
+                          class="pixel-radio"
+                          type="radio"
+                          id="apple"
+                          name="brand"
+                        /><label for="apple">Apple<span>(29)</span></label>
+                      </li>
+                      <li class="filter-list">
+                        <input
+                          class="pixel-radio"
+                          type="radio"
+                          id="asus"
+                          name="brand"
+                        /><label for="asus">Asus<span>(29)</span></label>
+                      </li>
+                      <li class="filter-list">
+                        <input
+                          class="pixel-radio"
+                          type="radio"
+                          id="gionee"
+                          name="brand"
+                        /><label for="gionee">Gionee<span>(19)</span></label>
+                      </li>
+                      <li class="filter-list">
+                        <input
+                          class="pixel-radio"
+                          type="radio"
+                          id="micromax"
+                          name="brand"
+                        /><label for="micromax"
+                          >Micromax<span>(19)</span></label
+                        >
+                      </li>
+                      <li class="filter-list">
+                        <input
+                          class="pixel-radio"
+                          type="radio"
+                          id="samsung"
+                          name="brand"
+                        /><label for="samsung">Samsung<span>(19)</span></label>
+                      </li>
+                    </ul>
+                  </form>
+                </div>
+                <div class="common-filter">
+                  <div class="head">Color</div>
+                  <form action="#">
+                    <ul class="list-unstyled text-muted">
+                      <li class="filter-list">
+                        <input
+                          class="pixel-radio"
+                          type="radio"
+                          id="black"
+                          name="color"
+                        /><label for="black">Black<span>(29)</span></label>
+                      </li>
+                      <li class="filter-list">
+                        <input
+                          class="pixel-radio"
+                          type="radio"
+                          id="balckleather"
+                          name="color"
+                        /><label for="balckleather"
+                          >Black Leather<span>(29)</span></label
+                        >
+                      </li>
+                      <li class="filter-list">
+                        <input
+                          class="pixel-radio"
+                          type="radio"
+                          id="blackred"
+                          name="color"
+                        /><label for="blackred"
+                          >Black with red<span>(19)</span></label
+                        >
+                      </li>
+                      <li class="filter-list">
+                        <input
+                          class="pixel-radio"
+                          type="radio"
+                          id="gold"
+                          name="color"
+                        /><label for="gold">Gold<span>(19)</span></label>
+                      </li>
+                      <li class="filter-list">
+                        <input
+                          class="pixel-radio"
+                          type="radio"
+                          id="spacegrey"
+                          name="color"
+                        /><label for="spacegrey"
+                          >Spacegrey<span>(19)</span></label
+                        >
+                      </li>
+                    </ul>
+                  </form>
+                </div>
+                <div class="common-filter">
+                  <div class="head">Price</div>
+                  <div class="price-range-area text-muted">
+                    <div id="price-range" class="mr-3">
+                      <div id="slider"></div>
+                    </div>
+                    <div class="value-wrapper d-flex mt-3">
+                      <div class="price mr-1">Price:</div>
+                      <span>$</span>
+                      <div id="lower-value">500.00</div>
+                      <div class="px-2">to</div>
+                      <span>$</span>
+                      <div id="upper-value">4000.00</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-9 col-lg-8 col-md-7">
+            <div class="filter-bar d-flex flex-wrap align-items-center">
+              <div class="sorting">
+                <select style="display: none;">
+                  <option value="1">sort by name</option>
+                  <option value="1">sort by brand</option>
+                  <option value="1">sort by price</option>
+                </select>
+                <div class="nice-select" tabindex="0">
+                  <span class="current">sort by name</span>
+                  <ul class="list list-unstyled">
+                    <li data-value="1" class="option selected">
+                      sort by name
+                    </li>
+                    <li data-value="1" class="option">sort by brand</li>
+                    <li data-value="1" class="option">sort by price</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="sorting mr-auto">
+                <select style="display: none;">
+                  <option value="1">Show 12</option>
+                  <option value="1">Show 24</option>
+                  <option value="1">Show 36</option>
+                </select>
+                <div class="nice-select" tabindex="0">
+                  <span class="current">Show 12</span>
+                  <ul class="list list-unstyled">
+                    <li data-value="1" class="option selected">Show 12</li>
+                    <li data-value="1" class="option">Show 24</li>
+                    <li data-value="1" class="option">Show 36</li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <div class="input-group filter-bar-search text-muted">
+                  <input type="text" placeholder="Search" />
+                  <div class="input-group-append">
+                    <button type="button">
+                      <i class="fas fa-search text-muted"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="o-products-area">
+              <div class="row"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/nouislider.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
